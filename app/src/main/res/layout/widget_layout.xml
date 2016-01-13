@@ -17,6 +17,7 @@
         android:background="@android:color/white"
         android:textColor="@android:color/black"
         android:text="No Games Today"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:contentDescription="No Games"/>
 
 </FrameLayout>

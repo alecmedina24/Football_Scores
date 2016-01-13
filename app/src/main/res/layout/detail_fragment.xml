@@ -17,7 +17,8 @@
             android:gravity="center"
             android:text="@string/test_text"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/League" />
+            android:textSize="@dimen/League"
+            android:contentDescription="League"/>
 
         <TextView
             android:id="@+id/matchday_textview"
@@ -27,7 +28,8 @@
             android:gravity="center"
             android:text="@string/test_text"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/League" />
+            android:textSize="@dimen/League"
+            android:contentDescription="Match Day"/>
 
 
     </LinearLayout>
@@ -44,9 +46,10 @@
             android:layout_gravity="center"
             android:drawableLeft="@android:drawable/ic_menu_share"
             android:gravity="center"
-            android:paddingLeft="120dp"
-            android:paddingRight="120dp"
-            android:text="@string/share_text" />
+            android:paddingStart="120dp"
+            android:paddingEnd="120dp"
+            android:text="@string/share_text"
+            android:contentDescription="Share"/>
     </FrameLayout>
 
 </LinearLayout>
